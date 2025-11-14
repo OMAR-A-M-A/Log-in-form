@@ -1,0 +1,124 @@
+@import url("http://fonts.cdnfonts.com/css/sansation");
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  background-image: url(images/bg.svg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0 10px;
+}
+
+.right {
+  min-width: 300px;
+  max-width: 90%;
+  width: 360px;
+  height: 580px;
+  background: #ffffff;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.title {
+  font-family: Sansation;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 40px;
+  align-items: center;
+  font-family: "Sansation", sans-serif;
+  color: #5754dd;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  outline: none;
+  background: none;
+  font-size: 20px;
+  color: #85b6ff;
+  padding: 20px 10px 20px 5px;
+  border: 2px solid #568aee;
+  width: 85%;
+  height: 45px;
+  margin: 15px auto;
+  border-radius: 25px;
+  text-align: center;
+  font-family: "Scheherazade New", serif;
+
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 4px;
+  margin-bottom: 3px;
+  font-weight: bold;
+  height: 18px;
+  width: 18px;
+}
+
+::placeholder {
+  color: #85b6ff;
+  font-size: 18px;
+}
+
+.icon {
+  position: absolute;
+  padding: 24px 10px;
+  height: 75px;
+  width: 50px;
+}
+
+.keepme {
+  margin: 15px;
+  color: #71a1bd;
+  font-family: "Scheherazade New", serif;
+  font-weight: bold;
+}
+
+button {
+  width: 75%;
+  height: 45px;
+  font-family: "Sansation", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  background: rgba(135, 113, 224, 0.89);
+  border-radius: 25px;
+}
+
+.link {
+  text-align: center;
+  display: block;
+  margin-top: 18px;
+  color: #71a1bd;
+  font-family: "Scheherazade New", serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .contact-container {
+    background: linear-gradient(138.56deg, #318adc 23.44%, #88183a 89.5%);
+  }
+  .right {
+    width: 95%;
+  }
+}
