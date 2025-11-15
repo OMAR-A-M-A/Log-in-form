@@ -24,7 +24,9 @@
   max-width: 90%;
   width: 360px;
   height: 580px;
-  background: #ffffff;
+  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.25);
   border-radius: 25px;
   text-align: center;
 }
@@ -36,7 +38,7 @@
   margin-top: 40px;
   align-items: center;
   font-family: "Sansation", sans-serif;
-  color: #5754dd;
+  color:rgba(135, 113, 224, 0.89);
 }
 
 .logo {
